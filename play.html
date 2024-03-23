@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url(/assets/bg2.gif); background-size: cover; background-repeat: no-repeat;">
+    <div class="actions">
+        <button id="punch" onclick="punch1()">punch</button>
+        <button id="kick" onclick="kick1()">kick</button>
+    </div>
+    <div class="users">
+        <img src="/assets/character1.gif" id="user1">
+        <img src="/assets/character1.gif" id="user2">
+    </div>
+
+    <div class="bars">
+
+        <div class="health-bar" data-total="1000" data-value="1000">
+            <div class="bar">
+                  <div class="hit"></div>
+            </div>
+          </div>
+          
+          <br />
+          
+          <!-- <button class="damage random">hit random</button> -->
+          <!-- <button class="reset">reset</button> -->
+        <h2>VS</h2>
+          <div class="health-bar" data-total="1000" data-value="1000">
+            <div class="bar">
+                  <div class="hit1"></div>
+            </div>
+          </div>
+    </div>
+    
+
+<script src="index.js"></script>
+</body>
+</html>
